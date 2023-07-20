@@ -117,6 +117,12 @@
             settings:controller="com.android.settings.display.ScreenResolutionController"
             settings:keywords="@string/keywords_screen_resolution" />
 
+        <Preference
+            android:key="status_bar_lyric_settings"
+            android:fragment="com.android.settings.fragments.StatusbarLyricSettings"
+            android:title="@string/status_bar_lyric_title"
+            android:summary="@string/status_bar_lyric_summary"/>
+
         <SwitchPreference
             android:key="display_white_balance"
             android:summary="@string/display_white_balance_summary"
